@@ -44,8 +44,8 @@ public class Public_Administration {
             System.out.println("Въведете " + (i + 1) + "и елемент");
             elementValue = scanner.nextInt();
 
-            while(elementValue > 100 || elementValue <0){
-                System.out.println("Въведената стойност е извън позволените граници");
+            while(elementValue > 100 || elementValue < 1){
+                System.out.println("Въведената стойност е извън позволените граници (между 1 и 100)");
                 System.out.println("Въведете " + (i + 1) + "и елемент");
                 elementValue = scanner.nextInt();
             }
