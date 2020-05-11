@@ -347,6 +347,7 @@ public class Public_Administration {
     public static boolean keepWorking(Scanner scanner) {
         boolean goBackToTheMenu = true;
         System.out.println("\nИскате ли да се върнете в менюто? (y/n)");
+        
         while (true) {
             String workCommand = scanner.nextLine();
 
