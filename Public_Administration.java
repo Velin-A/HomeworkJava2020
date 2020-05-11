@@ -346,11 +346,11 @@ public class Public_Administration {
          */
     public static boolean keepWorking(Scanner scanner) {
         boolean goBackToTheMenu = true;
+        System.out.println("\nИскате ли да се върнете в менюто? (y/n)");
         while (true) {
-            System.out.println("\nИскате ли да се върнете в менюто? (y/n)");
-            String huntCommand = scanner.nextLine();
+            String workCommand = scanner.nextLine();
 
-            switch (huntCommand) {
+            switch (workCommand) {
                 case "y":
                     goBackToTheMenu = true;
                     break;
@@ -358,7 +358,7 @@ public class Public_Administration {
                     goBackToTheMenu = false;
                     break;
             }
-            if (huntCommand.equals("y") || huntCommand.equals("n")) {
+            if (workCommand.equals("y") || workCommand.equals("n")) {
                 break;
             }
         }
