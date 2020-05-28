@@ -1,0 +1,3 @@
+width=5
+height=4
+mines=5
